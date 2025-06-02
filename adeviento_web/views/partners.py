@@ -22,6 +22,6 @@ def partners() -> rx.Component:
             style=styles.max_width_style
         ),
         bg=Color.ACCENT.value,
-        align="start",
+        align="center",
         width="100%" 
     )

@@ -24,6 +24,7 @@ def index() -> rx.Component:
                 partners(),
                 footer(),
                 github(),
+                align="center",
                 width="100%",
                 spacing="6" # no podríamos usar 'Size.VERY_BIG.value' porque 'vstack' sólo acepta números enteros
             )
